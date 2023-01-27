@@ -433,8 +433,8 @@ ol {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   z-index: 100;
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity var(--animation-duration) var(--animation-timing-function),
@@ -564,8 +564,8 @@ ol {
   position: absolute;
   left: 0;
   top: 0;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   padding: 40px 32px;
   overflow: auto;
   transform: translate(0, 100%);
